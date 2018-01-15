@@ -1,1 +1,4 @@
-About me test
+---
+title: About Me
+permalink: about.md
+---
