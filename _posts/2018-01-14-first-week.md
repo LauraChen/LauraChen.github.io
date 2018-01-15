@@ -2,7 +2,7 @@
 layout: single
 title:  "My first week at Metis"
 date:   2018-01-14 16:16:01 -0600
-categories: personal
+categories: Personal
 author_profile: true
 ---
 
