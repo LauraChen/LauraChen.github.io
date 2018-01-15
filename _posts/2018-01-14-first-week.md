@@ -22,4 +22,4 @@ I love the creativity of working on open ended questions, and there were about a
 
 That being said, I'm extremely proud of our team's work. I've learned so much already and am extremely motivated to push myself further.
 
-Check out our final deliverable [here](link to github PDF)!
+Check out our final deliverable [here](https://github.com/LauraChen/MTAproject/blob/master/Challenge%201-%20MTA%20Project.pdf)!
