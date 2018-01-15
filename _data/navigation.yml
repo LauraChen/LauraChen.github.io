@@ -1,9 +1,9 @@
 # main links
 main:
 - title: "Blog"
-    url: /_posts/
+    url: /blog/
 - title: "About"
-    url: /about.md
+    url: /about/
 
   # - title: "Sample Collections"
   #   url: /collection-archive/
