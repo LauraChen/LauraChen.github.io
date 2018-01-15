@@ -1,8 +1,12 @@
 ---
 layout: archive
-permalink: /blog/
-title: "Blog Posts"
+permalink: /
+title: "Home"
 author_profile: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+excerpt: 'Welcome to my blog!'
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
