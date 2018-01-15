@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "Metis - First week"
+title:  "My first week at Metis"
 date:   2018-01-14 16:16:01 -0600
 categories: personal
 author_profile: true
 ---
 
-# Metis Week 1
+Coming from my job as an implementation consultant at Deloitte Digital and joining Metis has been such a whirlwind, but in the best way possible. 
 
 > At Work:  
 > **Me:** Hey dude, can you make the system do this? While you’re at it, can you make this button blue and move it to the left side of the screen?  
