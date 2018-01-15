@@ -5,5 +5,5 @@ author_profile: true
 permalink: /about/
 ---
 
-**My name is Laura Chen**  
+**About me**  
 Aside from exploring data, I love to travel, learn new things, paint, and drink fancy tea. 
