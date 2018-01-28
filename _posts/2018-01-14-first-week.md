@@ -24,5 +24,3 @@ Currently, the ideas in my head exceed my technical ability to accomplish them. 
 One thing I love about data science is the creativity of working on open ended questions. This week, we tackled our very first project.  Our goal was to recommend the best MTA stations for a nonprofit street team to conduct marketing activities. There were about a million things that our group wanted to investigate, and it felt like our biggest challenge was to reign ourselves in and select a manageable amount of analysis to conduct given the 1 week timeframe, the messy nature of the data, and our own learning curves.  
 
 That being said, I'm extremely proud of our team's work. I've learned so much already and am extremely motivated to push myself further.
-
-Check out our final deliverable [here](https://github.com/LauraChen/MTAproject/blob/master/Challenge%201-%20MTA%20Project.pdf)!
