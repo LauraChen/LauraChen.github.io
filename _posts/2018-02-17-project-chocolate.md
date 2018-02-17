@@ -11,8 +11,13 @@ They say you should find work you love. I love chocolate. I focused this project
 The Manhattan Society of Chocolate maintains [a database](http://flavorsofcacao.com/chocolate_database.html) with information about more than 1,800 chocolate bars as of Feb 2018. My goal with this project was to determine the factors that would lead to a highly rated bar of chocolate. The official ratings provided in the database were from 1 to 5, but I binned the data into Low, Medium, and High tiers to even out the classes.  
   
 ### Which factors mattered?
-The most important predictor of high quality chocolate ended up being whether the bar was crafted from Criollo beans. Upon further research, I found that this bean is considered one of the most prized in the world for it's rarity and fine flavor. Due to the rarity, I would also infer that chocolatiers who use this bean are probably more likely to meticulously craft their recipes to perfection. They are definitely not using this in your average Hershey's bar.  
-I found it interesting that the location of the company processing the chocolate actually had a much bigger impact on the chocolate taste than the region where the beans were sourced. I interpret this to mean that local processing techniques and recipes can have a greater impact than the raw materials themselves, but would love to see further data on this.  
+The most important predictor of high quality chocolate ended up being whether the bar was crafted from Criollo beans. Upon further research, I found that this bean is considered one of the most prized in the world for its rarity and flavor. Due to the rarity, I would also infer that chocolatiers who use this bean are probably more likely to meticulously craft their recipes to perfection. They are definitely not using this in your average Hershey's bar.  
+  
+I found it interesting that the location of the company processing the chocolate actually had a much bigger impact on the chocolate taste than the region where the beans were sourced. I interpret this two ways:  
+1. Cocoa beans require very particular conditions, so most beans are sourced from a few specific regions of the world. Within the sample, the vast majority of beans were sourced from Latin America and the Caribbean (about 70%). Thus, vastly different bars are showing up as from the same origin. 
+2. Local processing techniques, recipes, and culture/tastes can have a large impact on the final product.  
+  
+Between the two, I believe #1 is likely the more significant reason. I would love to see additional data to further investigate these ideas.  
   
 ![Map of Chocolate Production](\assets\map-of-chocolate.jpg)
   
