@@ -1,12 +1,12 @@
 ---
 layout: single
-title:  "Chocolate Flavor Rater"
+title:  "Supervised Learning Models and Chocolate"
 date:   2018-02-17
 categories: Projects
 author_profile: true
 ---
   
-They say you should find work you love. I love chocolate. I focused this project on classifying chocolate bars based on expert reviews from the Manhattan Chocolate Society. Whether you are trying to break into the chocolate industry, or you're just a connoisseur looking for the next delicious bar to eat, hopefully these findings will be of interest.  
+The most convenient part about building a supervised learning model for chocolate is that you can stress-eat in the name of "research". Jokes aside, I focused this project on classifying chocolate bars based on expert reviews from the Manhattan Chocolate Society. Whether you are trying to break into the chocolate industry, or you're just a connoisseur looking for the next delicious bar to eat, hopefully these findings will be of interest.  
   
 The Manhattan Society of Chocolate maintains [a database](http://flavorsofcacao.com/chocolate_database.html) with information about more than 1,800 chocolate bars as of Feb 2018. My goal with this project was to determine the factors that would lead to a highly rated bar of chocolate. The official ratings provided in the database were from 1 to 5, but I binned the data into Low, Medium, and High tiers to even out the classes.  
   
