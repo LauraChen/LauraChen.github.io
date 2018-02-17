@@ -24,7 +24,7 @@ Between the two, I believe #1 is likely the more significant reason. I would lov
 ### Technical Details  
 The tiers of chocolate ratings were quite imbalanced at the start, so I had to upsample my training set to increase precision of the model.  I experimented with several models such as Logistic Regression, Naive Bayes, and Support Vector Classification, but my ultimate winner was the Random Forest model. As I further tuned the model, I prioritized precision over accuracy and recall because I'd rather let some highly rated chocolates slip through the cracks than accidentally predict that Low rated chocolates are High.  
   
-In the end, my final model had about 48% precision and 41% recall for predicting High ratings for chocolates. While the performance was not the absolute best, I am fairly pleased with it considering how limited the data available was.   
+In the end, my final model had about 48% precision and 41% recall for predicting High ratings for chocolates. While the performance was not the absolute best, I am fairly pleased with it considering how few features I was able to include.   
   
 ### Areas of further exploration  
 I think there are a ton of factors that go into a chocolate bar's taste. I would like to see additional data on percentages of other ingredients such as sugar, vanilla, and emulsifiers. It would also be great to have details on processing techniques and agricultural techniques.   
