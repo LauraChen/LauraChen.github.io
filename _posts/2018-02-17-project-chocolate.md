@@ -8,7 +8,9 @@ author_profile: true
   
 The most convenient part about building a supervised learning model for chocolate is that you can stress-eat in the name of "research". Jokes aside, I focused this project on classifying chocolate bars based on expert reviews from the Manhattan Chocolate Society. Whether you are trying to break into the chocolate industry, or you're just a connoisseur looking for the next delicious bar to eat, hopefully these findings will be of interest.  
   
-The Manhattan Society of Chocolate maintains [a database](http://flavorsofcacao.com/chocolate_database.html) with information about more than 1,800 chocolate bars as of Feb 2018. My goal with this project was to determine the factors that would lead to a highly rated bar of chocolate. The official ratings provided in the database were from 1 to 5, but I binned the data into Low, Medium, and High tiers to even out the classes.  
+The Manhattan Society of Chocolate maintains [a database](http://flavorsofcacao.com/chocolate_database.html) with information about more than 1,800 chocolate bars as of Feb 2018. My goal with this project was to determine the factors that would lead to a highly rated bar of chocolate. The official ratings provided in the database were from 1 to 5, but I grouped the data into Low, Medium, and High tiers to even out the classes.  
+  
+![choco-pie](\assets\choco-pie.jpg)
   
 ### Which factors mattered?
 The most important predictor of high quality chocolate ended up being whether the bar was crafted from Criollo beans. Upon further research, I found that this bean is considered one of the most prized in the world for its rarity and flavor. Due to the rarity, I would also infer that chocolatiers who use this bean are probably more likely to meticulously craft their recipes to perfection. They are definitely not using this in your average Hershey's bar.  
