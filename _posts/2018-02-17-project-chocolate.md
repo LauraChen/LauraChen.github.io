@@ -27,6 +27,6 @@ The tiers of chocolate ratings were quite imbalanced at the start, so I had to u
 In the end, my final model had about 48% precision and 41% recall for predicting High ratings for chocolates. While the performance was not the absolute best, I am fairly pleased with it considering how few features I was able to include.   
   
 ### Areas of further exploration  
-I think there are a ton of factors that go into a chocolate bar's taste. I would like to see additional data on percentages of other ingredients such as sugar, vanilla, and emulsifiers. It would also be great to have details on processing techniques and agricultural techniques.   
+I think there are a ton of factors that go into a chocolate bar's overall experience. It would be interesting to see more data on other qualities such as acidity, bitterness, texture, etc. I would like to see additional data on percentages of other ingredients such as sugar, vanilla, and emulsifiers. It would also be great to have details on processing techniques and agricultural techniques.   
   
 The ability for a chocolate bar to receive a High rating from a panel of experts is one thing, but what about flavor ratings from real customers? It would be interesting to see how flavor preferences could be used to recommend chocolates that a specific type of person would enjoy. I think it would also be interesting to investigate sales numbers of different chocolate bars to see which ones are the most profitable.  
