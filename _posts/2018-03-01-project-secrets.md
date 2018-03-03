@@ -38,7 +38,7 @@ I extracted topics from the data using Non-negative Matrix Factorization (NMF). 
 9. High School/College
 10. Dating
   
-I used the highest NMF coefficient for each secret to classify it into a topic and found that topics 1,3, and 4 were by far the most common. However, many secrets had extremely low NMF coefficients (less than .00001). I experimented with my topics, expanding them beyond interpretability, and played with clustering models such as DBSCAN and K-means. I couldn’t seem to get any meaningful results for those noisy points. As I investigated them, I found that there were simply a lot of secrets along the lines of this: “It feels like a sin to wash bacon grease off a pan”. These were totally random thoughts that anyone would have difficulty categorizing.  
+I used the highest NMF coefficient for each secret to classify it into a topic and found that the topics for parents/family, jobs/money, and exes were by far the most common. However, many secrets had extremely low NMF coefficients (less than .00001) so I had to take this interpretation with a grain of salt. I experimented with my topics, expanding them beyond interpretability, and played with clustering models such as DBSCAN and K-means. I couldn’t seem to get any meaningful results for those noisy points. As I investigated them, I found that there were simply a lot of secrets along the lines of “It feels like a sin to wash bacon grease off a pan”.  
   
 Interestingly, I found a very different distribution of topics among positive and negative secrets from my sentiment analysis. Understandably, the positive secrets are people gushing about happy moments that they want to share. The people's secrets with negative tones tend to be about marriage, work, and things they hate.  
   
@@ -47,7 +47,7 @@ Interestingly, I found a very different distribution of topics among positive an
 
   
 # Web App Mockup  
-There are a lot of potential practical applications for sharing your secrets. There is some comfort in knowing that you’re not alone. I made a simple mockup of a site where users can type their secret and the model will pull up the most similar secrets by cosine similarity.  
+There is some comfort in knowing that you’re not alone when you are struggling with a heavy secret. I made a simple mockup of a site where users can type their secret and the model will pull up the most similar secrets by cosine similarity.  
   
 ![shared secrets app](/assets/shared-secrets-app.png)  
   
