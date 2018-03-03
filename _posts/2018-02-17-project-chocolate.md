@@ -17,7 +17,8 @@ The most important predictor of high quality chocolate ended up being whether th
   
 I found it interesting that the location of the company processing the chocolate actually had a much bigger impact on the chocolate taste than the region where the beans were sourced. I created a D3 visualization to show a the average chocolate bar rating from different countries around the world. Darker colors represent a higher rating. I saw that Latin America and parts of southern Europe were producing many of the best bars in the world.    
   
-![Map of Chocolate Production](\assets\map-of-chocolate.jpg)
+![Map of Chocolate Production](\assets\map-of-chocolate.jpg)  
+[Click for the full interactive version](https://bl.ocks.org/LauraChen/raw/e6cf35cd59ed0a756467d9d35a7f0682/)  
   
 Why does location of production seem to matter more than bean origin? I interpret this two ways:  
 1. Cocoa beans require very particular growing conditions. Thus, many different companies end up sourcing their beans from the same few locations. Within the sample, the vast majority of beans were sourced from Latin America and the Caribbean (about 70%). As a result, vastly different bars are showing up as from the same origin and the effect of bean origin is minimized. 
