@@ -6,7 +6,7 @@ categories: Projects
 author_profile: true
 ---
   
-** Uncovering hidden themes in anonymous social media through Natural Language Processing **  
+#### Uncovering hidden themes in anonymous social media through Natural Language Processing  
   
 > Nothing makes us so lonely as our secrets. – Paul Tournier  
   
