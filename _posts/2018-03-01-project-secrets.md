@@ -6,24 +6,24 @@ categories: Projects
 author_profile: true
 ---
   
-## Uncovering hidden themes in anonymous social media through Natural Language Processing 
+### Uncovering hidden themes in anonymous social media through Natural Language Processing 
   
 > Nothing makes us so lonely as our secrets. – Paul Tournier  
   
-Secrets can take so many forms: from lighthearted to intense, regrettable to silly, and everything in between. You can learn a lot about people from the things they hide from themselves and from others. By definition, you rarely get to peek behind the curtain, but people become surprisingly honest and vulnerable when you give them the benefit of anonymity. [Whisper](whisper.sh) is an anonymous social media platform for sharing secrets where I collected the data for my analysis.  
+Secrets can take so many forms: from lighthearted to intense, regrettable to silly, and everything in between. I became interested in studying secrets because I feel you can learn a lot about society from the things that people are afraid to admit in public. By definition, you rarely get to peek behind the curtain, but people become surprisingly honest and vulnerable when you give them the benefit of anonymity. [Whisper](whisper.sh) is an anonymous social media platform for sharing secrets where I collected the data for my analysis.  
   
 ![Data about secrets](/assets/whisper-data.jpg)
   
 You can see what people tend to talk about from a high level in this word cloud, but let’s dig a little deeper.  
   
+![Word Cloud](/assets/wc1.png)
+  
 # Sentiment Analysis
-I used Vader sentiment Analysis to get the sentiment scores for all secrets in my dataset. A higher score means the message is generally more positive, while a lower score means it is more negative.   
+I used VADER Sentiment Analysis to get the sentiment scores for all secrets in my dataset. A higher score means the message is generally more positive, while a lower score means it is more negative.   
   
  I was surprised to find that the secrets were generally fairly balanced, with most falling on the neutral or slightly negative side. The image below shows the exact breakdown of the scores as well as some examples of messages within those groups.   
   
 ![Compound sentiment score](/assets/secret-sentiment-scores.jpg)
-  
- 
   
 # Topic Modeling
 I extracted topics from the data using Non-negative Matrix Factorization (NMF). I summarized the top 10 topics across the entire dataset as follows:  
@@ -38,7 +38,6 @@ I extracted topics from the data using Non-negative Matrix Factorization (NMF). 
 9. High School/College
 10. Dating
   
-
 I used the highest NMF coefficient for each secret to classify it into a topic and found that topics 1,3, and 4 were by far the most common. However, many secrets had extremely low NMF coefficients (less than .00001). I experimented with my topics, expanding them beyond interpretability, and played with clustering models such as DBSCAN and K-means. I couldn’t seem to get any meaningful results for those noisy points. As I investigated them, I found that there were simply a lot of secrets along the lines of this: “It feels like a sin to wash bacon grease off a pan”. These were totally random thoughts that anyone would have difficulty categorizing.  
   
 Interestingly, I found a very different distribution of topics among positive and negative secrets from my sentiment analysis. Understandably, the positive secrets are people gushing about happy moments that they want to share. The people's secrets with negative tones tend to be about marriage, work, and things they hate.  
