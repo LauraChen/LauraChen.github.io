@@ -21,12 +21,12 @@ I used Vader sentiment Analysis to get the sentiment scores for all secrets in m
   
  I was surprised to find that the secrets were generally fairly balanced, with most falling on the neutral or slightly negative side. The image below shows the exact breakdown of the scores as well as some examples of messages within those groups.   
   
-![Compound sentiment score](/assets/whisper-sentiment.jpg)
+![Compound sentiment score](/assets/secret-sentiment-scores.jpg)
   
  
   
 # Topic Modeling
-I extracted topics from the data using Non-negative Matrix Factorization (NMF). I summarized the top 10 topics as follows:  
+I extracted topics from the data using Non-negative Matrix Factorization (NMF). I summarized the top 10 topics across the entire dataset as follows:  
 1. Parents/family
 2. Sex
 3. Jobs/Money
@@ -39,15 +39,13 @@ I extracted topics from the data using Non-negative Matrix Factorization (NMF). 
 10. Dating
   
 
-I used the highest NMF coefficient for each secret to classify it into a topic. The illustration below shows the distribution of topics across my whole dataset.  
+I used the highest NMF coefficient for each secret to classify it into a topic and found that topics 1,3, and 4 were by far the most common. However, many secrets had extremely low NMF coefficients (less than .00001). I experimented with my topics, expanding them beyond interpretability, and played with clustering models such as DBSCAN and K-means. I couldn’t seem to get any meaningful results for those noisy points. As I investigated them, I found that there were simply a lot of secrets along the lines of this: “It feels like a sin to wash bacon grease off a pan”. These were totally random thoughts that anyone would have difficulty categorizing.  
   
-![Distribution of Topics](/assets/secret-topic-dist-all.png)  
-  
-Interestingly, I found a very different distribution of topics among positive and negative secrets from my sentiment analysis.  
+Interestingly, I found a very different distribution of topics among positive and negative secrets from my sentiment analysis. Understandably, the positive secrets are people gushing about happy moments that they want to share. The people's secrets with negative tones tend to be about marriage, work, and things they hate.  
   
 ![Distribution of Topics by Sentiment](/assets/secret-topic-dist.png)  
   
-Many secrets had extremely low NMF coefficients (less than .00001). I experimented with my topics, expanding them beyond interpretability, and played with clustering models such as DBSCAN and K-means. I couldn’t seem to get any meaningful results for those noisy points. As I investigated them, I found that there were simply a lot of secrets along the lines of this: “It feels like a sin to wash bacon grease off a pan”. Totally random thoughts that anyone would have difficulty categorizing.  
+
   
 # Web App Mockup  
 There are a lot of potential practical applications for sharing your secrets. There is some comfort in knowing that you’re not alone. I made a simple mockup of a site where users can type their secret and the model will pull up the most similar secrets by cosine similarity.  
