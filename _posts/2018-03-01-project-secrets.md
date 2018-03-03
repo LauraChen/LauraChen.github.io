@@ -10,7 +10,7 @@ author_profile: true
   
 > Nothing makes us so lonely as our secrets. – Paul Tournier  
   
-Secrets can take so many forms: from lighthearted to intense, regrettable to silly, and everything in between. I became interested in studying secrets because I feel you can learn a lot about society from the things that people are afraid to admit in public. By definition, you rarely get to peek behind the curtain, but people become surprisingly honest and vulnerable when you give them the benefit of anonymity. [Whisper](whisper.sh) is an anonymous social media platform for sharing secrets where I collected the data for my analysis.  
+Secrets can take so many forms: from lighthearted to intense, regrettable to silly, and everything in between. I became interested in studying secrets because I feel you can learn a lot about society from the things that people are afraid to admit in public. By definition, you rarely get to peek behind the curtain, but people become surprisingly honest and vulnerable when you give them the benefit of anonymity. [Whisper](https://whisper.sh) is an anonymous social media platform for sharing secrets where I collected the data for my analysis.  
   
 ![Data about secrets](/assets/whisper-data.jpg)
   
