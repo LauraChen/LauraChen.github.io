@@ -6,7 +6,7 @@ categories: Projects
 author_profile: true
 ---
   
-### Uncovering hidden themes in anonymous social media through Natural Language Processing 
+**Uncovering hidden themes in anonymous social media through Natural Language Processing **  
   
 > Nothing makes us so lonely as our secrets. – Paul Tournier  
   
@@ -23,7 +23,7 @@ I used VADER Sentiment Analysis to get the sentiment scores for all secrets in m
   
  I was surprised to find that the secrets were generally fairly balanced, with most falling on the neutral or slightly negative side. The image below shows the exact breakdown of the scores as well as some examples of messages within those groups.   
   
-![Compound sentiment score](/assets/secret-sentiment-scores.jpg)
+![Compound sentiment score](/assets/secret-sentiment-score.png)
   
 # Topic Modeling
 I extracted topics from the data using Non-negative Matrix Factorization (NMF). I summarized the top 10 topics across the entire dataset as follows:  
